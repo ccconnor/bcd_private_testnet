@@ -19,7 +19,7 @@ docker run -it -d -p 16101:16101 -p 16102:16102 -p 16103:16103 bcd_private_net
 
 ### cli
 ```bash
-docker exec -it <container_id> /usr/bin/bitcoindiamond-cli -datadir=/data/node-pool getblockchaininfo
+docker exec -it <container_id> /usr/local/bin/bitcoindiamond-cli -datadir=/data/node-pool getblockchaininfo
 ```
 
 ### rpc:
